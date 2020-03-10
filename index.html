@@ -113,50 +113,47 @@ src="https://code.jquery.com/jquery-3.4.1.js"
 		font-weight: 600;
 	}
 	.main-container-two {
-		width: 95%;
-	    padding-right: 15px;
-	    padding-left: 15px;
+		width: 100%;
+/*	    padding-right: 15px;
+	    padding-left: 15px;*/
 /*	    margin-right: auto;
 	    margin-left: auto;*/
 	}
 	.container-two {
-		max-width: 1200px;
+		width: 95%;
 		height: 300px;
 		margin-top: 300px;
-		padding-right: 15px;
-	    padding-left: 15px;
-	    margin-right: auto;
-	    margin-left: auto;
+	    padding-left: 2vw;
 	}
 	.container-two-row {
-		max-width: 1200px;
+		/*max-width: 1200px;*/
 		height: 300px;
 		margin-top: 300px;
 		display: flex;
 	}
 	.row-two1 {
-		width: 300px;
+		width: 400px;
 		height: 240px;
 		border: 2px solid #879492;
 		border-right: 0;
 
 	}
 	.row-two2 {
-		width: 300px;
+		width: 400px;
 		height: 240px;
 		border: 2px solid #879492;
 		border-right: 0;
 
 	}
 	.row-two3 {
-		width: 300px;
+		width: 400px;
 		height: 240px;
 		border: 2px solid #879492;
 		border-right: 0;
 
 	}
 	.row-two4 {
-		width: 300px;
+		width: 400px;
 		height: 240px;
 		border: 2px solid #879492;
 
@@ -189,24 +186,26 @@ src="https://code.jquery.com/jquery-3.4.1.js"
 		z-index: 1;
 	}
 	@media screen and (max-width: 1100px) {
-    .container-menu { display: none;
+    .container-menu { 
+    	display: none;
      }
  	}
-	@media screen and (max-width: 992px) {
-   	.karta {
-  	 	margin-left: -300px;
-  	 }
-	}
 	@media screen and (max-width: 1200px) {
   	.karta {
-   		margin-left: -628px;
+   		margin-left: -476px;
    		opacity: 0.25;
-  	 }
-  	.row-first {
+   		/*  	.row-first {
   		 width: 530px;
+  	 }*/
+  	 }
+  	}
+  	 @media screen and (max-width: 992px) {
+   	.karta {
+  	 	display: none;
   	 }
 	}
-	
+
+
    @media screen and (max-width: 767px){
    	.container-two-row {
    		font-size: 14px;
@@ -274,7 +273,7 @@ src="https://code.jquery.com/jquery-3.4.1.js"
    	.row-two1 {
     	border-right: 2px solid #879492;
     	border-bottom: 0;
-    	width: 138vw;
+    	width: 100%;
 	}
 	.row-two2 {
     	border-right: 2px solid #879492;
