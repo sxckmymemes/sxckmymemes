@@ -192,13 +192,16 @@ src="https://code.jquery.com/jquery-3.4.1.js"
  	}
 	@media screen and (max-width: 1200px) {
   	.karta {
-   		margin-left: -476px;
+   		margin-left: -450px;
    		opacity: 0.25;
-   		/*  	.row-first {
-  		 width: 530px;
-  	 }*/
   	 }
   	}
+  	@media screen and (min-width: 1200px) {
+  		.row-first {
+  			width: inherit;
+  		}
+  	}
+
   	 @media screen and (max-width: 992px) {
    	.karta {
   	 	display: none;
@@ -228,6 +231,9 @@ src="https://code.jquery.com/jquery-3.4.1.js"
 	}
 	.container-two-row p {
 		padding-top: 25px;
+	}
+	.row-first {
+		width: 340px;
 	}
    }
 /*    @media screen and (max-width: 576px) {
@@ -269,6 +275,9 @@ src="https://code.jquery.com/jquery-3.4.1.js"
 	    transform: translate(-50%, -100%);
 	   	font-size: 17px;
 	   	width: 90%;
+     }
+     .container-first-row h1 {
+     	font-size: 25px;
      }
    	.row-two1 {
     	border-right: 2px solid #879492;
@@ -324,11 +333,11 @@ src="https://code.jquery.com/jquery-3.4.1.js"
 			</div>
 			<div class="contact">
 				<a href="#" class="left-header1">
-					<img style="width: 1.5vw; height: 1.5vw;" src="phone2.png">
+					<img style="width: 15px;" src="phone2.png">
 					<span>+79022664945</span>
 				</a>
 				<a href="#" class="left-header2">
-					<img style="width: 1.5vw; height: 1.5vw;" src="phone2.png">
+					<img style="width: 15px;" src="phone2.png">
 					<span>djshkvar@mail.ru</span>
 				</a>
 			</div>
